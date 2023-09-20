@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background-color: lightskyblue;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+main {
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-links li {
+  margin-right: 10px;
+}
+
+.social-media-links a {
+  color: black;
+}
+
+.social-media-links a:hover {
+  color: lightgray;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
